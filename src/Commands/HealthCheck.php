@@ -268,11 +268,6 @@ class HealthCheck extends Command implements HealthCheckInterface
             $this->testConnection("Server");
             $this->testConnection("Database");
             $this->testConnection("Smtp");
-            //$this->testConnection("Redis");
-            //$this->testConnection("Aws");
-            //$this->testConnection("AwsS3");
-            //$this->testConnection("AwsSqs");
-
 
             return CommandAlias::SUCCESS;
         } catch (Exception $e) {

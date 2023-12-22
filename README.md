@@ -47,7 +47,7 @@ https://opensource.com/article/22/5/composer-git-repositories
 ]
 ```
 
-### Para funcionar tem que adicionar o service provider do pacote:
+### To work, you have to add the package's service provider:
 
 Add the service provider in laravel at
 config/app.php
